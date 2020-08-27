@@ -1,4 +1,4 @@
-package com.lucamartinelli.simplesite.database.persistency;
+package com.lucamartinelli.app.simplesite.database.persistency;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -28,7 +28,7 @@ public class ConnectionManager {
 	 */
 	public Connection getConnection() throws SQLException{
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			if (conn == null || conn.isClosed()) {
 				conn = DriverManager
 						.getConnection("jdbc:mysql://127.0.0.1:3306/simple_site", "simple_site_user", "Me6aKI6ENoCi");

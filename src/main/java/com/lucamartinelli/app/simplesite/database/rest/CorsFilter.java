@@ -1,4 +1,4 @@
-package com.lucamartinelli.simplesite.database.rest;
+package com.lucamartinelli.app.simplesite.database.rest;
 
 import java.io.IOException;
 

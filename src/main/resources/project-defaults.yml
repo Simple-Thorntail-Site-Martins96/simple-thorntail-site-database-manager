@@ -3,7 +3,7 @@ thorntail:
   network:
     socket-binding-groups:
       standard-sockets:
-        port-offset: 3
+        port-offset: 4
         default-interface: public
   logging:
     pattern-formatters:

@@ -1,4 +1,4 @@
-package com.lucamartinelli.simplesite.database.model;
+package com.lucamartinelli.app.simplesite.database.model;
 
 import java.io.Serializable;
 import java.util.Arrays;
