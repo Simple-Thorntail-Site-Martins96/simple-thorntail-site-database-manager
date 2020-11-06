@@ -26,7 +26,7 @@
 
 
 	<build>
-		<finalName>login</finalName>
+		<finalName>database-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>io.thorntail</groupId>
